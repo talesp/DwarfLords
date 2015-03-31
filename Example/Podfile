@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DwarfLords', :exclusive => true do
+  pod "DwarfLords", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DwarfLords", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
