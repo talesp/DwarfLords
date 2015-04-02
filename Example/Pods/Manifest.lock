@@ -1,0 +1,20 @@
+PODS:
+  - DwarfLords (0.1.0)
+  - FBSnapshotTestCase (1.6)
+  - Kiwi (2.3.1)
+
+DEPENDENCIES:
+  - DwarfLords (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+EXTERNAL SOURCES:
+  DwarfLords:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DwarfLords: d822c61b60efe0b19c34f25c9e61b1d0443e0a22
+  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
+
+COCOAPODS: 0.36.0
